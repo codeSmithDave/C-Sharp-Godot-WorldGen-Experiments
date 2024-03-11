@@ -23,4 +23,6 @@
 As of right now, WFC is used to generate the map, however, the issue with this approach is the slow processing time for large worlds. Using noise to generate the world is much faster, however, the randomness effect reduces realism which is something important to me. The end goal is to use a a mix of both to generate a realistic 2D world, similar with Earth. These random worlds will have a north and south pole with various biomes depending on the distances from the poles. Each biome will contain flora and fauna related to it (as it can be seen with the snowy trees in the above image). Another planned future iteration would be to add chunk loading, meaning that the world will be "drawn / painted" as the player explores the world (similar to other games, like Minecraft, etc.). This will offer a massive increase in performance as we will be loading assets for a limited view instead of a massive world all at once.
 
 **Other existing features:**
-I have implemented a basic player with basic keyword controls (WASD) and a camera following the player, uncovering more of the app, as it walks around.</p>
+I have implemented a basic player with basic keyword controls (WASD) and a camera following the player, uncovering more of the app, as it walks around. This is what is would look like:</p>
+![image](https://github.com/codeSmithDave/C-Sharp-Godot-WorldGen-Experiments/assets/29952471/72b73d3f-41b5-457d-b186-59553c039648)
+
