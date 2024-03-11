@@ -8,10 +8,10 @@
 
 <h2>Features</h2>
 <ul>
- <li>**Procedural World Generation:** Utilizes a combination of noise functions to generate unique, diverse terrains, landscapes, flora, fauna & cities.</li>
- <li>**Wave Function Collapse Algorithm:** Employs WFC for pattern-based generation, ensuring that each world is both random and logically consistent.</li>
- <li>**Biome Specific Entities:** Integrates a system for defining and spawning fauna and wildlife based on the biome they are best suited to, adding an extra layer of authenticity to each generated world.</li>
- <li>**Customizable Parameters:** Offers modifiable parameters for world size, complexity, and biome types, allowing for personalized world creation experiences.</li>
+ <li><b>Procedural World Generation:</b> Utilizes a combination of noise functions to generate unique, diverse terrains, landscapes, flora, fauna & cities.</li>
+ <li><b>Wave Function Collapse Algorithm:</b> Employs WFC for pattern-based generation, ensuring that each world is both random and logically consistent.</li>
+ <li><b>Biome Specific Entities:</b> Integrates a system for defining and spawning fauna and wildlife based on the biome they are best suited to, adding an extra layer of authenticity to each generated world.</li>
+ <li><b>Customizable Parameters:</b> Offers modifiable parameters for world size, complexity, and biome types, allowing for personalized world creation experiences.</li>
 </ul>
 
 <h2>Goals</h2>
