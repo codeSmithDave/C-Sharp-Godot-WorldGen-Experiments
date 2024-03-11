@@ -1,0 +1,62 @@
+[gd_scene load_steps=9 format=3 uid="uid://ckgds2c3w4rxs"]
+
+[ext_resource type="Script" path="res://scenes/world gen/world.gd" id="1_djyhq"]
+[ext_resource type="Texture2D" uid="uid://bawqpnfytkrpd" path="res://graphics/tiles2.png" id="1_dtuln"]
+[ext_resource type="Script" path="res://scenes/world gen/WFC_Grid.cs" id="1_gflq5"]
+[ext_resource type="Texture2D" uid="uid://pb4nftpi0rod" path="res://graphics/environment/WinterTrees.png" id="2_ywxn2"]
+[ext_resource type="PackedScene" uid="uid://bl78i27gh3r2n" path="res://scenes/player/player.tscn" id="4_m8y85"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_0rag7"]
+texture = ExtResource("1_dtuln")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_tvk80"]
+texture = ExtResource("2_ywxn2")
+0:0/0 = 0
+1:0/0 = 0
+2:0/0 = 0
+3:0/0 = 0
+0:1/0 = 0
+1:1/0 = 0
+2:1/0 = 0
+3:1/0 = 0
+0:2/0 = 0
+1:2/0 = 0
+2:2/0 = 0
+3:2/0 = 0
+0:3/0 = 0
+1:3/0 = 0
+2:3/0 = 0
+3:3/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_rov5j"]
+sources/0 = SubResource("TileSetAtlasSource_0rag7")
+sources/1 = SubResource("TileSetAtlasSource_tvk80")
+
+[node name="World" type="Node2D"]
+script = ExtResource("1_djyhq")
+
+[node name="TileMap" type="TileMap" parent="."]
+scale = Vector2(3, 3)
+tile_set = SubResource("TileSet_rov5j")
+format = 2
+layer_1/tile_data = PackedInt32Array()
+script = ExtResource("1_gflq5")
+
+[node name="Player" parent="." instance=ExtResource("4_m8y85")]
+position = Vector2(101, 99)

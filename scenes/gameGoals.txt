@@ -1,0 +1,77 @@
+-xianxia game about cultivation, similar to Tale of Immortal ( https://store.steampowered.com/app/1468810/_Tale_of_Immortal/ )
+-open world 2D rpg with some instanced dungeons
+-the game will have combat with normal monsters, other humanoid characters, bosses, etc.
+-the character can gain "levels" to increase their cultivation base (foundation base, golden core, etc. - classic xianxia types)
+-world vocations: mining, herbalism (pick up plants), fishing
+-crafting: alchemy, weapon / armor smiths
+-world will contain cities, towns, villages, immortal cultivation sects
+
+TODO:
+1. Core Gameplay Loop
+Focus on the fundamental mechanics that players will engage with most frequently. This usually includes:
+
+Movement and Exploration: Since you've added basic player movement, ensure that exploring the world feels good. Add more terrain variety and points of interest to encourage exploration.
+Combat System: Develop a simple version of the combat system. This could include basic attacks, abilities, and enemy behaviors.
+Cultivation System: Implement the foundational mechanics for the cultivation system, allowing players to progress and "level up" their cultivation base.
+2. World Interaction
+Expand on how the player can interact with the world:
+
+Gathering: Implement basic gathering systems like mining and herbalism, with resources that players can collect.
+Fishing: Add a simple fishing mechanic as an additional activity.
+3. Crafting and Upgrades
+Allow players to use resources they've gathered to craft and upgrade equipment:
+
+Alchemy: Start with basic potion-making that uses collected herbs.
+Smithing: Allow players to craft basic weapons or armor from mined materials.
+4. Environment and Setting
+Begin fleshing out the world to make it feel alive:
+
+Cities and Towns: Create a few distinct settlements with NPCs and services.
+Sects: Add a couple of cultivation sects where players can interact with masters, take on quests, or learn new skills.
+5. NPCs and Quests
+Populate the world with NPCs and create simple quests:
+
+Quest System: Implement a basic quest system with tasks that guide the player through the game's mechanics and story.
+Dynamic NPCs: Add NPCs that offer quests, trade, or provide information.
+6. Combat Expansion
+Enhance the combat system:
+
+Monster AI: Develop more complex enemy behaviors and patterns.
+Boss Fights: Design and implement boss encounters with unique mechanics.
+7. Progression and Cultivation Depth
+Deepen the cultivation system:
+
+Advanced Levels: Add more layers to the cultivation system, such as new realms or abilities that unlock with higher cultivation levels.
+Skill Trees: Consider adding skill trees or similar systems to give players more control over their character's development.
+8. Vocations and Advanced Crafting
+Expand vocational activities and crafting options:
+
+Advanced Crafting: Introduce more intricate crafting mechanics, possibly with minigames or skill challenges.
+Economic System: Implement a basic economy for buying and selling resources and crafted items.
+9. World Building
+Continue expanding the world:
+
+More Biomes: Add additional biomes to the world generation to create more diverse environments.
+Dungeons: Create instanced dungeons with unique challenges and rewards.
+10. Story and Lore
+Integrate a narrative into your game:
+
+Main Story: Craft a main storyline that players can follow, which ties into the game's theme of cultivation.
+Lore: Add background stories, books, or other elements that players can discover to learn more about the world.
+11. Polishing and User Experience
+Enhance the overall feel of the game:
+
+UI/UX: Improve the user interface and user experience, making sure information is clear and controls are intuitive.
+Feedback Systems: Add visual, auditory, and haptic feedback to make actions feel satisfying.
+12. Testing and Iteration
+Regularly test your game and iterate on feedback:
+
+Playtesting: Conduct playtesting sessions to gather feedback on game mechanics and difficulty balance.
+Iterate: Use feedback to refine and improve the game.
+13. Additional Features
+Once you have a solid base game, consider adding more advanced features:
+
+Multiplayer Elements: If appropriate, add social or competitive multiplayer elements.
+Modding Support: Consider allowing players to create and share their own content.
+Final Thoughts
+Developing a game is a significant undertaking, and focusing on one aspect at a time will help prevent becoming overwhelmed. It's also important to regularly playtest and iterate on your game to ensure that it's fun and engaging. Good luck with your development!
